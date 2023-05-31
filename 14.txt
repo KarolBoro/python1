@@ -1,0 +1,20 @@
+slowo_bez_samoglosek = ""
+
+# Poproś użytkownika o wprowadzenie słowa
+# i przypisz je do zmiennej slowo_uzytkownika.
+
+
+    # Uzupełnij pętlę for poniżej.
+
+# Wyświetl słowo przypisane do zmiennej slowo_bez_samoglosek.
+
+
+
+slowo_uzytkownika = input()
+slowo_uzytkownika = slowo_uzytkownika.upper()
+
+for litera in slowo_uzytkownika:
+    if litera == 'A' or litera == 'E' or litera == 'I' or litera == 'O' or litera == 'U':
+        continue
+    slowo_bez_samoglosek = slowo_bez_samoglosek + litera
+print(slowo_bez_samoglosek)

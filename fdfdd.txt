@@ -1,0 +1,6 @@
+kod = "pumpernikiel"
+slowo = input("Podaj słowo: ")
+while kod != slowo:
+    slowo = input("Podaj słowo: ")
+    if kod == slowo:
+        break

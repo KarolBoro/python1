@@ -1,0 +1,11 @@
+a = 2.5
+b = 5.6
+
+dod = a + b
+odej = a - b
+mno = a * b
+dziel = a / b
+
+print(dod, "\n",odej, "\n", mno, "\n", dziel)
+
+print("\nI to by było na tyle!")

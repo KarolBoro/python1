@@ -1,0 +1,9 @@
+h = int(input("Czas startu (godziny): "))
+m = int(input("Czas startu (minuty): "))
+d = int(input("Czas trwania wydarzenia (minuty): "))
+
+# wprowadź tutaj swój kod
+em = (m + d) % 60
+eh = (h + (m + d) // 60) % 24
+
+print("Czas zakończenia: ", eh,":",em)

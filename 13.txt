@@ -1,0 +1,12 @@
+# Poproś użytkownika o wprowadzenie słowa
+# i przypisz je do zmiennej slowo_uzytkownika
+
+slowo_uzytkownika = input()
+slowo_uzytkownika = slowo_uzytkownika.upper()
+
+for litera in slowo_uzytkownika:
+    if litera == 'A' or litera == 'E' or litera == 'I' or litera == 'O' or litera == 'U':
+        continue
+    print(litera)
+
+
